@@ -12,11 +12,11 @@ def solve(s):
             max_consonant_value = max(max_consonant_value, current_consonant_value)
             current_consonant_value = 0
 
-#     # Check one last time in case the string ends with a consonant substring
-#     max_consonant_value = max(max_consonant_value, current_consonant_value)
+    # Check one last time in case the string ends with a consonant substring
+    max_consonant_value = max(max_consonant_value, current_consonant_value)
 
-#     return max_consonant_value
+    return max_consonant_value
 
-# # Examples
-# print(solve("zodiacs"))    # Output: 26
-# print(solve("strength"))   # Output: 57
+# Examples
+print(solve("zodiacs"))    # Output: 26
+print(solve("strength"))   # Output: 57
